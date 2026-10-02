@@ -1,7 +1,5 @@
 /* Fondo gris */
-body {
-    background-color: lightgray;
-}
+.gris{background-color: #e1dddd;}
 
 /* Todos los h3 en verde */
 h3 {
