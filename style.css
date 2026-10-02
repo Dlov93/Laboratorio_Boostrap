@@ -1,44 +1,25 @@
-/* Fondo gris */
-.gris{background-color: #e1dddd;}
-
-/* Todos los h3 en verde */
-h3 {
-    color: green;
+.letra-card h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 8px 0 0;
+  line-height: 1;
 }
 
-/* Clase para poner tres h3 en azul */
-.azul {
-    color: blue;
-}
-
-/* Un h3 en rojo */
-.rojo {
-    color: red;
-}
-
-/* Los h5 cambian de color al hacer clic */
-h5 {
-    cursor: pointer;
-    user-select: none;
-    transition: color 0.3s;
-}
-
-/* Tarjetas de las letras */
-.letra-card {
-    border-radius: 1rem;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.letra-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25) !important;
+.letra-card h5 {
+  font-size: 16px;
+  margin: 5px 0;
+  color: green;
+  font-weight: 500;
 }
 
 .letra-card img {
-    cursor: pointer;
-    transition: transform 0.2s;
+  width: 125px;
+  height: 145px;
+  object-fit: contain;
 }
 
-.letra-card img:hover {
-    transform: scale(1.04);
+.letra-card p {
+  font-size: 12px;
+  margin: 4px 0;
+  color: green;
 }
