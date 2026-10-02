@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Letra U de Uvas">
+  <rect width="400" height="500" rx="32" fill="#F0E6F7"/>
+  <rect x="12" y="12" width="376" height="476" rx="24" fill="none" stroke="#6A3D9A" stroke-width="4"/>
+  <text x="200" y="130" font-family="Verdana, Geneva, sans-serif" font-size="96" font-weight="bold"
+        fill="#6A3D9A" text-anchor="middle">U u</text>
+  <text x="200" y="320" font-size="150" text-anchor="middle">🍇</text>
+  <text x="200" y="420" font-family="Verdana, Geneva, sans-serif" font-size="46" font-weight="bold"
+        fill="#6A3D9A" text-anchor="middle">Uvas</text>
+</svg>
