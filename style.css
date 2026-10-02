@@ -1,0 +1,46 @@
+/* Fondo gris */
+body {
+    background-color: lightgray;
+}
+
+/* Todos los h3 en verde */
+h3 {
+    color: green;
+}
+
+/* Clase para poner tres h3 en azul */
+.azul {
+    color: blue;
+}
+
+/* Un h3 en rojo */
+.rojo {
+    color: red;
+}
+
+/* Los h5 cambian de color al hacer clic */
+h5 {
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s;
+}
+
+/* Tarjetas de las letras */
+.letra-card {
+    border-radius: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.letra-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25) !important;
+}
+
+.letra-card img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.letra-card img:hover {
+    transform: scale(1.04);
+}
